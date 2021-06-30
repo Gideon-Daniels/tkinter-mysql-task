@@ -34,15 +34,20 @@ class DatabaseHospital:
         #     return password
         return records
 
+    def insert(self, user, password):
+        pass
 
-username = DatabaseHospital().select_username()
-password = DatabaseHospital().select_password()
-entered_username = "Gideon"
-print("USERNAMES :", username)
-print("PASSWORDS :", password)
 
-for x in username:
-    print(x)
-    if entered_username in x:
-        print("CORRECT")
-        break
+# username = DatabaseHospital().select_username()
+# password = DatabaseHospital().select_password()
+# entered_username = "Ashwin"
+# print("USERNAMES :", username)
+# print("PASSWORDS :", password)
+#
+# for x in range(len(username)):
+#     # print(username[x])
+#     if entered_username in username[x]:
+#         print("CORRECT")
+#         break
+#     else:
+#         print("Incorrect")
