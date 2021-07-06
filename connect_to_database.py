@@ -11,16 +11,16 @@ class DatabaseHospital:
             password="@Lifechoices1234",
             database="Hospital"
         )
-        # creating an instance of 'cursor' class which is used to execute the 'SQL' statements in 'Python'
+            # creating an instance of 'cursor' class which is used to execute the 'SQL' statements in 'Python'
         self.cursor = self.db.cursor()
 
     def select_username(self):
         # defining the Query
-        query_user = "SELECT user FROM Login"
+        query_user = "DO user FROM Login"
         # getting records from the table
         self.cursor.execute(query_user)
         # fetching all records from the 'cursor' object
-        records = self.cursor.fetchall()
+        records = self.cursor.f
         # showing the data
         # for user in records:
         #     return user

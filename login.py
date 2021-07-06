@@ -67,5 +67,4 @@ class Login:
     def register_button(self):
         pass
 
-
 Login()
